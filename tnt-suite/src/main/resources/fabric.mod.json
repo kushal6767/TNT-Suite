@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "tnt-suite",
+  "version": "${version}",
+  "name": "TNT Suite",
+  "description": "Meteor Client addon: Auto Cart (TNT minecarts) and Auto TNT.",
+  "authors": ["You"],
+  "environment": "client",
+  "entrypoints": {
+    "meteor": ["com.tntsuite.addon.TntSuiteAddon"]
+  },
+  "depends": {
+    "java": ">=${jdk_version}",
+    "fabricloader": ">=0.19.2",
+    "minecraft": "${minecraft_version}",
+    "meteor-client": "*"
+  }
+}
